@@ -42,16 +42,11 @@ menu a {
 }
 
 
-.img-1{
-    
-    background-image: url(../image/parallax-imagem1.png);
-    height: 1079px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
+main{
 
-
+    height: 1900px;
 }
+
 
 
 
