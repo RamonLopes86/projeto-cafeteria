@@ -7,61 +7,172 @@
     
 }
 
+#logo-top{
 
+width: 90px;
+position: absolute;
+left: 15vw;
+top: -5px;
+
+
+}
 
 .cmenu{
 
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: right;
+    background-color:#604829 ;
     position: fixed;
-    background-color: #604829;
-    top: 0px;
-    box-sizing: border-box;
-    
- 
-   
-}
-
-
-
-
-menu a {
-
-    text-decoration: none;
-    color:#C4A47C ;
-    font-size: 14px;
-    font-weight: bolder;
-    padding-right: 15px;
-    text-shadow: 6px 4px 3px rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    line-height:25px;
-           
-}
-
-
-
-#logo-top{
-    position: absolute;
-    width: 70px;
-    display: inline-block;
-    left: 12vw;
-    top: -4px;
-    
-   
-   
+    height: 80px;
 }
 
 menu{
-
-    padding-right: 8vw;
-    padding-left:140px;
-    box-sizing: border-box;
     
-    
-    
-   
+    position: absolute;
+    bottom: 24px;
+    right:15vw;
     
 }
+
+menu a {
+    
+    padding-left: 10px;
+    text-decoration:none;
+    color: #c4a47c;
+    text-shadow: 5px 4px 3px rgba(0, 0, 0, 0.74);
+}
+
+
+.img-1{
+    
+    background-image: url(../image/parallax-imagem1.png);
+    height: 1079px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+
+}
+
+
+
+
+
+/* media query */
+
+
+@media (max-width:570px){
+
+    menu a {
+        text-align: center;
+        display: block;
+        padding:5px;
+        
+    } 
+
+    menu{
+
+        top: 8px;
+        right: 120px;
+        
+        
+    }
+
+    .cmenu{
+
+        height: 100px;
+    }
+
+    #logo-top{
+
+       top: 8px;
+    }
+
+}
+
+@media (max-width:460px){
+
+    menu a {
+
+        text-align: center;
+        display: block;
+        padding:3px;
+        padding-top: 8px;
+        
+        
+
+    }
+
+    menu{
+
+        top: 15px;
+        
+    }
+
+    .cmenu{
+        height: 120px;
+        
+        
+    }
+
+    
+
+}
+
+
+
+@media (max-width:390px){
+
+    #logo-top{
+
+        display:none;
+    }
+
+    menu{
+        left:100px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    menu a {
+        
+        padding-top: 15px;
+    }
+
+    .cmenu{
+        height: 150px;
+        
+        
+    }
+
+}
+
+@media (max-width:340px){
+
+    menu{
+        
+        
+        top: 12px;
+        left: 0px;
+        width: 100%;
+        
+        margin-right: 20px;
+
+    
+    }
+
+    .cmenu{
+        
+        
+    }
+
+  
+   
+
+}
+
+
+
+
+
+
+
