@@ -1,10 +1,38 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 *{
 
     margin: 0;
     padding: 0;
+
     
+}
+
+.container , p{
+    font-family: lato;
+    font-weight: 600;
+    color: #666;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    
+}
+
+.container , h1{
+    font-family: oswald;
+    color: #C4A47C;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 35px;
 }
 
 #logo-top{
@@ -50,20 +78,121 @@ menu a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.pai{
+
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.img-1 h1{
+
+
+font-family: Fraunces;
+font-size: 70px;
+color: #fff;
+
+
+
+
+}
+
+.container{
+
+    max-width:1100px;
+    margin: 0px auto;
+}
+
+.experimente{
+
+    width: 100%;
+    text-align: center;
+
 
 }
 
 
 
 
-main{
 
-    height: 1900px;
+.img-2{
+   
+   background-image: url(../image/parallax-imagem2.jpg); 
+   text-align: center; 
+   height: 400px;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+
+.pai2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    height:400px;
+
 }
 
 
+.img-2 h1 {
+    
+   
+    background-color: #604829;
+    color: white;
+    font-family:fraunces ;
 
 
+}
+
+
+.img-3{
+
+    background-image: url(../image/parallax-imagem3.jpg);
+    text-align: center; 
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-3 h1{
+        
+   background-color: #604829;
+   color: white;
+   font-family:fraunces ;
+   font-size: 25px;
+   
+
+
+}
+
+.img-4{
+
+    background-image: url(../image/parallax-imagem4.png);
+    text-align: center; 
+    height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/* parei em contatos */
 
 
 /* media query */
