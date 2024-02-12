@@ -43,17 +43,16 @@ menu a {
 }
 
 
-header{
+.img-1{
 
     background-image: url(../image/parallax-imagem1.png);
     height: 800px;
-    background-position: left center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:80px;
-    
 
 }
+
 
 
 
