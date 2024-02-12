@@ -20,6 +20,7 @@ top: -5px;
 .cmenu{
 
     width: 100%;
+    top: 0px;
     background-color:#604829 ;
     position: fixed;
     height: 80px;
@@ -42,6 +43,20 @@ menu a {
 }
 
 
+header{
+
+    background-image: url(../image/parallax-imagem1.png);
+    height: 800px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:80px;
+    
+
+}
+
+
+
 main{
 
     height: 1900px;
@@ -53,6 +68,7 @@ main{
 
 
 /* media query */
+
 
 
 @media (max-width:570px){
@@ -164,6 +180,7 @@ main{
    
 
 }
+
 
 
 
