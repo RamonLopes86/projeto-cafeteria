@@ -14,6 +14,11 @@
     
 }
 
+body{
+
+    height: 100vh;
+}
+
 .container , p{
     font-family: lato;
     font-weight: 600;
@@ -183,7 +188,7 @@ color: #fff;
 
     background-image: url(../image/parallax-imagem4.png);
     text-align: center; 
-    height: 800px;
+    height: 900px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,7 +197,87 @@ color: #fff;
 }
 
 
-/* parei em contatos */
+.blocotitulo {
+
+    
+    padding-top: 80px;
+    padding-bottom: 30px;
+    display: block;
+
+}
+
+.blocotitulo h1 {
+
+    background-color: #604829;
+    max-width: 300px;
+    margin: 0px auto;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    text-shadow: 5px 5px 5px black;
+}
+
+
+.blocoendereco{
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.endereco{
+
+    
+    background-color: #604829;
+    display: block;
+    max-width: 550px;
+    margin: 30px auto;
+    padding: 30px;
+   
+
+}
+
+.blocomapa{
+
+    max-width: 800px;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+    
+}
+
+#mapa{
+
+    width: 100%;
+    
+}
+
+
+
+li{
+
+    list-style: none;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.img-5{
+
+    background-image: url(../image/cafeteria.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+footer{
+
+    background-color: black;
+
+}
 
 
 /* media query */
@@ -299,11 +384,7 @@ color: #fff;
     
     }
 
-    .cmenu{
-        
-        
-    }
-
+   
   
    
 
