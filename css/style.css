@@ -190,11 +190,12 @@ color: #fff;
 
     background-image: url(../image/parallax-imagem4.png);
     text-align: center; 
-    height: 900px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding: 0px 0px 20px 0px;
+ 
 
 }
 
@@ -202,7 +203,7 @@ color: #fff;
 .blocotitulo {
 
     
-    padding-top: 80px;
+    padding-top: 10px;
     padding-bottom: 30px;
     display: block;
 
@@ -211,11 +212,13 @@ color: #fff;
 .blocotitulo h1 {
 
     background-color: #604829;
-    max-width: 300px;
-    margin: 0px auto;
-    padding: 5px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
     color: rgba(255, 255, 255, 0.884);
     text-shadow: 5px 5px 5px black;
+    /* margin-top: -60px; */
+    
 }
 
 
@@ -223,6 +226,7 @@ color: #fff;
 
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .endereco{
@@ -232,10 +236,13 @@ color: #fff;
     display: block;
     max-width: 550px;
     margin: 30px auto;
-    padding: 30px;
+    padding: 20px;
+    
    
 
 }
+
+
 
 .blocomapa{
 
@@ -280,8 +287,27 @@ li{
     
    
     text-align: center;
+    position: relative;
     
     
+}
+
+.seta{
+
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    background-color: #C4A47C;
+    border-radius: 5px;
+   
+}
+
+#setacima{
+
+    border-radius:none;
+    width: 50px;
+    
+
 }
 
 .img-5 h1{
@@ -295,12 +321,18 @@ li{
 
 .papai{
 
-    display: grid;
-    grid-template-columns: auto  auto;
+    /* display: grid;
+    grid-template-columns: auto  auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+
+   
     
 }
-
-
 
 
 
@@ -310,6 +342,18 @@ footer{
 
     background-color: black;
 
+}
+
+footer p {
+
+    margin: 0;
+    
+}
+
+span{
+
+    color: #4A4031;
+    font-weight: bold;
 }
 
 
@@ -423,6 +467,22 @@ footer{
 
 }
 
+@media (max-width:388px){
+
+    .endereco li{
+
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:415px){
+
+    #idpai h1{
+
+        font-size: 50px ;
+    }
+}
 
 
 
